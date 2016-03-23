@@ -1,0 +1,349 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Mar 23 09:17:39 2016
+;; Desktop file format version 206
+;; Emacs version 25.1.50.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22258 13571 393281 637000) (desktop . "208") "aaaaa@neutral" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 10") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "black") (background-color . "white") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . light) (cursor-color . "black") (sticky) (environment) (frameset--id . "E4AE-532D-E049-9669") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0.0") (explicit-name) (visibility . t) (height . 43) (width . 168) (left . 0) (top . 0)) ((min-height . 8) (min-width . 20) (min-height-ignore . 5) (min-width-ignore . 8) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 136) (min-pixel-width . 160) (min-pixel-height-ignore . 85) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 34) (min-pixel-width-safe . 32)) hc (pixel-width . 1366) (pixel-height . 720) (total-width . 171) (total-height . 42) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (vc (pixel-width . 680) (pixel-height . 720) (total-width . 85) (total-height . 42) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (leaf (pixel-width . 680) (pixel-height . 357) (total-width . 85) (total-height . 21) (normal-height . 0.5) (normal-width . 1.0) (buffer "*info*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1567762) (start . 1566988))) (leaf (last . t) (pixel-width . 680) (pixel-height . 363) (total-width . 85) (total-height . 21) (normal-height . 0.5) (normal-width . 1.0) (buffer "*magit: .emacs.d" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))) (leaf (last . t) (pixel-width . 686) (pixel-height . 720) (total-width . 86) (total-height . 42) (normal-height . 1.0) (normal-width . 0.5) (buffer ".emacs.d" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 253) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("magit" "scri" "all" "vc" "list" "gtest_ma" "cxx" "cpp" "ti" "swap" "iter_get" "iter" "iter_inc" "unittest_list.c" "g" "derivat"))
+(setq regexp-search-ring '("find" "ob" "def" "init" "magi" "magit" "" "dash" "git" "magit" "emacs 24" "hig" "sme" "interactive-p" "int" "(node)."))
+(setq register-alist nil)
+(setq file-name-history '("/home/aaaaa/.emacs.d/.gitignore" "~/.emacs.d/" "~/.emacs.d" "/home/aaaaa/Prog/outer/3time/project_notes" "~/Prog/outer/3time/project_notes" "/home/aaaaa/Prog/outer/3time/forMake" "~/Prog/outer/3time/unittest_list.cc" "/home/aaaaa/.emacs.d/init.el" "/home/aaaaa/Prog/BD2" "/home/aaaaa/Prog/labsBD" "~/.emacs" "~/tmp" "/home/aaaaa/Prog/outer/3time/Makefile" "~/Prog/3time_copy" "~/Prog/outer/3time/list.h" "~/Prog/outer/3time/list.c" "/home/aaaaa/Prog/outer/3time/googletest/samples/sample3_unittest.cc" "/home/aaaaa/Prog/outer/3time/unittest_list.c" "~/Prog/outer/3time/" "~/Prog/outer/3time/Makefile_old" "/home/aaaaa/Prog/outer/3time/forGit" "/home/aaaaa/Prog/outer/3time/Makefile" "~/Prog/outer/3time/main.c" "~/Prog/outer/3time/" "/home/aaaaa/googletest/make/Makefile" "~/Prog/outer/3time/" "/home/aaaaa/Prog/outer/3time/Makefile" "/home/aaaaa/Prog/outer/3time/list2.h" "/home/aaaaa/.emacs.d/init.el" "/home/aaaaa/Prog/outer/3time/list2.c" "~/Prog/outer/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  nil
+  253
+  '(189 nil)
+  t
+  '("/home/aaaaa/.emacs.d/" "/home/aaaaa/.emacs.d/auto-save-list/" "/home/aaaaa/.emacs.d/backups/" "/home/aaaaa/.emacs.d/elpa/" "/home/aaaaa/.emacs.d/elpa_o/" "/home/aaaaa/.emacs.d/elpa_o/starter-kit-2.0.3/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  nil
+  1567762
+  '(1 nil)
+  t
+  '("/usr/share/info/emacs" "Init File" ((history ("/usr/share/info/emacs" "Entering Emacs" 83321) ("/usr/share/info/emacs" "Top" 51160) ("/usr/share/info/emacs-24/elisp" "Interactive Call" 996639) ("/usr/share/info/emacs-24/elisp" "Top" 29476) ("/usr/share/info/emacs-24/emacs" "Top" 1654) ("/usr/share/info/emacs-24/calc" "Types Tutorial" 153665) ("/usr/share/info/emacs-24/calc" "Tutorial" 44215) ("/usr/share/info/emacs-24/calc" "Answers to Exercises" 207126) ("/usr/share/info/emacs-24/calc" "Types Answer 2" 254811) ("/usr/share/info/emacs-24/calc" "Programming Tutorial" 201560) ("/usr/share/info/emacs-24/calc" "Algebra Tutorial" 154711) ("/usr/share/info/emacs-24/calc" "Tutorial" 44234) ("/usr/share/info/emacs-24/calc" "Interactive Tutorial" 42520))))
+  '((tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  nil
+  "emacs"
+  'dired-mode
+  nil
+  26196
+  '(290 nil)
+  t
+  '("/usr/share/emacs/" "/usr/share/emacs/25.1.50/" "/usr/share/emacs/25.1.50/etc/" "/usr/share/emacs/25.1.50/lisp/" "/usr/share/emacs/25.1.50/lisp/obsolete/" "/usr/share/emacs/25.1.50/site-lisp/" "/usr/share/emacs/site-lisp/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/outer/3time/forGit"
+  "forGit"
+  'fundamental-mode
+  '(auto-revert-mode)
+  159
+  '(60 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode hi-lock-mode)
+  492
+  '(405 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/starter-kit-2.0.3/starter-kit.el"
+  "starter-kit.el"
+  'emacs-lisp-mode
+  nil
+  1732
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "elpa"
+  'dired-mode
+  nil
+  310
+  '(310 nil)
+  t
+  '("/home/aaaaa/.emacs.d/elpa/" "/home/aaaaa/.emacs.d/elpa/better-defaults-0.1.2/" "/home/aaaaa/.emacs.d/elpa/idle-highlight-mode-1.1.2/" "/home/aaaaa/.emacs.d/elpa/ido-ubiquitous-2.10/" "/home/aaaaa/.emacs.d/elpa/smex-3.0/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa/better-defaults-0.1.2/better-defaults.el"
+  "better-defaults.el"
+  'emacs-lisp-mode
+  '(linum-mode)
+  2608
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa/idle-highlight-mode-1.1.2/idle-highlight-mode.el"
+  "idle-highlight-mode.el"
+  'emacs-lisp-mode
+  '(auto-revert-mode)
+  3059
+  '(1428 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa/ido-ubiquitous-2.10/ido-ubiquitous-autoloads.el"
+  "ido-ubiquitous-autoloads.el"
+  'emacs-lisp-mode
+  '(auto-revert-mode)
+  1450
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/starter-kit-2.0.3/starter-kit-autoloads.el"
+  "starter-kit-autoloads.el"
+  'emacs-lisp-mode
+  nil
+  219
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "dedicated-1.0.0"
+  'dired-mode
+  nil
+  155
+  '(nil nil)
+  t
+  '("/home/aaaaa/.emacs.d/elpa/dedicated-1.0.0/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/starter-kit-2.0.3/starter-kit-defuns.el"
+  "starter-kit-defuns.el"
+  'emacs-lisp-mode
+  nil
+  5729
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/starter-kit-2.0.3/starter-kit-pkg.el"
+  "starter-kit-pkg.el"
+  'emacs-lisp-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/starter-kit-2.0.3/starter-kit-misc.el"
+  "starter-kit-misc.el"
+  'emacs-lisp-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/fsm-readme.txt"
+  "fsm-readme.txt"
+  'text-mode
+  nil
+  2004
+  '(2015 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/dash-readme.txt"
+  "dash-readme.txt"
+  'text-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/darkroom-readme.txt"
+  "darkroom-readme.txt"
+  'text-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/avy-readme.txt"
+  "avy-readme.txt"
+  'text-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/ahungry-theme-readme.txt"
+  "ahungry-theme-readme.txt"
+  'text-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/.emacs.d/elpa_o/ace-window-readme.txt"
+  "ace-window-readme.txt"
+  'text-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/BD2"
+  "BD2"
+  'org-mode
+  '(auto-fill-mode flyspell-mode)
+  28
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/labsBD"
+  "labsBD"
+  'fundamental-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/outer/3time/Makefile"
+  "Makefile"
+  'makefile-gmake-mode
+  '(auto-fill-mode auto-revert-mode hi-lock-mode)
+  2815
+  '(2825 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/outer/3time/project_notes"
+  "project_notes"
+  'fundamental-mode
+  '(auto-revert-mode)
+  148
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/outer/3time/list.h"
+  "list.h"
+  'c-mode
+  '(auto-fill-mode abbrev-mode auto-revert-mode)
+  19
+  '(643 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/outer/3time/list.c"
+  "list.c"
+  'c-mode
+  '(auto-fill-mode abbrev-mode auto-revert-mode hi-lock-mode)
+  365
+  '(2842 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  nil
+  "3time"
+  'dired-mode
+  nil
+  319
+  '(1110 nil)
+  t
+  '("/home/aaaaa/Prog/outer/3time/" "/home/aaaaa/Prog/outer/3time/googletest/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/outer/3time/unittest_list.cc"
+  "unittest_list.cc"
+  'c++-mode
+  '(auto-fill-mode abbrev-mode auto-revert-mode)
+  135
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (column-number-mode . t)))
+
+(desktop-create-buffer 206
+  "/home/aaaaa/Prog/outer/3time/main.c"
+  "main.c"
+  'c-mode
+  '(auto-fill-mode abbrev-mode auto-revert-mode)
+  343
+  '(55 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (column-number-mode . t)))
+
