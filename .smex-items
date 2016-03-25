@@ -1,0 +1,61 @@
+
+;; ----- smex-history -----
+(
+ org-mode
+ compile
+ gud-gdb
+ toggle-word-wrap
+ describe-variable
+ find-variable
+ package-list-packages
+)
+
+;; ----- smex-data -----
+(
+ (revert-buffer . 1)
+ (package-install . 2)
+ (shell . 2)
+ (toggle-word-wrap . 13)
+ (c-mode . 4)
+ (sh-mode . 5)
+ (shell-command . 1)
+ (Electric-command-history-redo-expression . 4)
+ (customize-face . 1)
+ (customize . 2)
+ (calc . 2)
+ (repeat-complex-command . 3)
+ (repeat . 12)
+ (start-kbd-macro . 1)
+ (end-kbd-macro . 17)
+ (asm-mode . 1)
+ (asm-comment . 1)
+ (text-mode . 1)
+ (xml-mode . 1)
+ (gdb . 4)
+ (compile . 75)
+ (windmove-default-keybindings . 1)
+ (set-variable . 3)
+ (line-number-mode . 2)
+ (url-view-url . 2)
+ (completion-help-at-point . 1)
+ (python-mode . 3)
+ (comment-box . 2)
+ (comment-indent . 1)
+ (comment-kill . 1)
+ (comment-region . 3)
+ (flymake-mode . 1)
+ (rope-show-doc . 1)
+ (pymacs-terminate-services . 4)
+ (gud-gdb . 21)
+ (imenu . 3)
+ (rope-redo . 1)
+ (set-selective-display . 1)
+ (hs-minor-mode . 2)
+ (magit-status . 2)
+ (rope-goto-definition . 1)
+ (magit-add-remote . 1)
+ (package-list-packages . 1)
+ (find-variable . 1)
+ (describe-variable . 1)
+ (org-mode . 1)
+)

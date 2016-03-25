@@ -11,7 +11,6 @@
 '("marmalade" . "https://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
-;(package-refresh-contents)
 
 
 ;; System-type definition
