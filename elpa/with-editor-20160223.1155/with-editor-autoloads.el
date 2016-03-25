@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil nil ("with-editor-pkg.el" "with-editor.el")
-;;;;;;  (22260 30883 445000 0))
+;;;;;;  (22261 35369 551000 0))
 
 ;;;***
 
