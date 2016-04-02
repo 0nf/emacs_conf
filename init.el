@@ -109,7 +109,13 @@
  '(magit-push-arguments nil)
  '(org-agenda-files nil)
  '(org-babel-load-languages (quote ((emacs-lisp . t) (latex . t))))
+ '(org-capture-templates
+   (quote
+    (("s" "somth for testing capture" entry
+      (file "~/org/captured.org")
+      ""))))
  '(org-mobile-files (quote (org-agenda-files "todo.org")))
+ '(org-todo-keywords (quote ((sequence "TODO" "TODO_NOW" "IN_PROCESS" "DONE"))))
  '(package-selected-packages
    (quote
     (cdlatex gnuplot gnuplot-mode magit smex paredit ido-ubiquitous idle-highlight-mode flex-autopair find-file-in-project dedicated dash better-defaults auctex)))
