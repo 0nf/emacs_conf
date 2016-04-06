@@ -1,16 +1,0 @@
-;; Emacs-W3 HTTP cookies file
-;; Automatically generated file!!! DO NOT EDIT!!!
-
-(setq url-cookie-storage
- '((".yandex.ru"
-  [url-cookie "yandexuid" "4040167161458117959" "14-Mar-2026 08:45:59.00 GMT" "/" ".yandex.ru" nil]
-  [url-cookie "yp" "1460709960.ygu.1" "14-Mar-2026 08:46:00.00 GMT" "/" ".yandex.ru" nil]
-  [url-cookie "yandex_gid" "214" "15-Apr-2016 08:46:00.00 GMT" "/" ".yandex.ru" nil]))
-)
-(setq url-cookie-secure-storage
- 'nil)
-
-;; Local Variables:
-;; version-control: never
-;; no-byte-compile: t
-;; End:
