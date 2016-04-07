@@ -68,6 +68,10 @@
 (column-number-mode t)
 (size-indication-mode t)
 (global-hl-line-mode t)
+(global-visual-line-mode t)
+
+;;enabling access to various modes
+(require 'helm-dictionary)
 
 ;(require 'dedicated "dedicated.el") TODO
 
@@ -106,6 +110,16 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(helm-dictionary-database
+   "C:/Users/aaaaa/AppData/Roaming/dict/Wiktionary English-Russian/Wiktionary English-Russian.dict")
+ '(helm-dictionary-online-dicts
+   (quote
+    (("translate.reference.com eng->de" . "http://translate.reference.com/translate?query=%s&src=en&dst=de")
+     ("Leo eng<->de" . "http://dict.leo.org/ende?lp=ende&lang=de&search=%s")
+     ("en.wiktionary.org" . "http://en.wiktionary.org/wiki/%s")
+     ("de.wiktionary.org" . "http://de.wiktionary.org/wiki/%s")
+     ("Linguee eng<->de" . "http://www.linguee.de/deutsch-englisch/search?sourceoverride=none&source=auto&query=%s")
+     ("cambridge" . "http://dictionary.cambridge.org/dictionary/english/%s"))))
  '(magit-push-arguments nil)
  '(org-agenda-files nil)
  '(org-babel-load-languages (quote ((emacs-lisp . t) (latex . t))))
