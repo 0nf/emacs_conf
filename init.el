@@ -6,6 +6,9 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+;;enabling access to various modes
+(require 'helm-dictionary)
+(require 'org-install)
 (require 'package)
 (add-to-list 'package-archives 
 '("marmalade" . "https://marmalade-repo.org/packages/"))
@@ -19,6 +22,9 @@
 (defun system-is-windows()
     (string-equal system-type "windows-nt"))
 
+
+
+
 (when (system-is-windows)
     (setq win-init-path "c:/Users/aaaaa/AppData/Roaming/.emacs.d/user-scripts")
 ;;    (setq win-init-ct-path      "C:/.emacs.d/plugins/color-theme")
@@ -30,15 +36,16 @@
       (interactive)
       (find-file "c:/Users/aaaaa/Dropbox/orgfiles/todo.org")
       )
-    (setq org-agenda-files (list "c:/Users/aaaaa/Documents/TextDocuments/orgfiles/todo.org"))
-    (setq org-directory "c:/Users/aaaaa/Documents/TextDocuments/orgfiles/")
-    (prefer-coding-system 'utf-8)
+    '(org-agenda-files (quote ("c:/Users/aaaaa/Dropbox/orgfiles/todo.org")))
+    (setq org-directory "c:/Users/aaaaa/Dropbox/orgfiles/")
+    (setq org-mobile-directory "c:/Users/aaaaa/Dropbox/MobileOrg")
+    (prefer-coding-system 'utf-8) ;;provide free use of russian keymap
 ;; It will be quite annoying to enter your username and password every time, so you should also use password caching: run git config --global credential.helper wincred to enable it (requires Git for Windows 1.8.1 or greater)
     
     (setenv "GIT_ASKPASS" "git-gui--askpass")
     )
     
-;;^provide free use of russian keymap^
+
 
 (when (system-is-linux)
     (setq unix-init-path         "~/.emacs.d/user-scripts/")
@@ -52,6 +59,7 @@
       (find-file "~/Dropbox/orgfiles/todo.org")
       )
     (setq org-directory "~/Dropbox/orgfiles/")
+    (setq org-mobile-directory "~/Dropbox/MobileOrg")
     (setq org-mobile-inbox-for-pull "~/Dropbox/orgfiles/inbox.org")
     )
 
@@ -70,14 +78,11 @@
 (global-hl-line-mode t)
 (global-visual-line-mode t)
 
-;;enabling access to various modes
-(require 'helm-dictionary)
-
 ;(require 'dedicated "dedicated.el") TODO
 
 ;; Scrolling settings
-(setq scroll-step 5) ;; вверх-вниз по 1 строке
-(setq scroll-margin 2) ;; сдвигать буфер верх/вниз когда курсор в 10 шагах от верхней/нижней границы  
+(setq scroll-step 5) ;; вверх-вниз по 5 строк
+(setq scroll-margin 2) ;; сдвигать буфер верх/вниз когда курсор в 2 шагах от верхней/нижней границы  
 (setq next-screen-context-lines 5)
 
 ;; (add-hook post-command-hook
@@ -121,14 +126,13 @@
      ("Linguee eng<->de" . "http://www.linguee.de/deutsch-englisch/search?sourceoverride=none&source=auto&query=%s")
      ("cambridge" . "http://dictionary.cambridge.org/dictionary/english/%s"))))
  '(magit-push-arguments nil)
- '(org-agenda-files nil)
+ '(org-agenda-files (quote ("c:/Users/aaaaa/Dropbox/orgfiles/todo.org")))
  '(org-babel-load-languages (quote ((emacs-lisp . t) (latex . t))))
  '(org-capture-templates
    (quote
     (("s" "somth for testing capture" entry
       (file "~/org/captured.org")
       ""))))
- '(org-mobile-files (quote (org-agenda-files "todo.org")))
  '(org-todo-keywords (quote ((sequence "TODO" "TODO_NOW" "IN_PROCESS" "DONE"))))
  '(package-selected-packages
    (quote
@@ -171,13 +175,11 @@
 
 
 ;org-mode customise
-(require 'org-install)
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-iswitchb)
 (setq org-log-done t)
-(setq org-mobile-directory "~/Dropbox/orgfiles")
 (add-hook 'org-mode-hook 'turn-on-org-cdlatex)
 
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
