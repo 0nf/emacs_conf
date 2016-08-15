@@ -82,6 +82,9 @@
     (setq org-mobile-directory "~/Dropbox/MobileOrg")
     (setq org-mobile-inbox-for-pull "~/Dropbox/orgfiles/inbox.org")
     '(helm-dictionary-database "~/.emacs.d/Wiktionary English-Russian.dict")
+    (load-file "~/Downloads/dvc-snapshot/++build/dvc-load.el") ;FIX in win
+    (require 'dvc-autoloads) ; to be able to use distributed version control system
+    (hlt-replace-highlight-face 'highlight 'hi-yellow) ;FIX in win
     )
 
 
@@ -115,8 +118,7 @@
 (column-number-mode t)
 (size-indication-mode t)
 (global-hl-line-mode t)
-(load-file "~/Downloads/dvc-snapshot/++build/dvc-load.el")
-(require 'dvc-autoloads) ; to be able to use distributed version control system
+
 (add-hook 'kill-emacs-hook (lambda()
                              '(org-startup-with-latex-preview nil)
                              'org-mobile-push))
@@ -272,7 +274,7 @@
         (sort (mapcar (lambda (x) (cons (random) (concat x "\n"))) lines)
               (lambda (a b) (< (car a) (car b))))))))
 
-(hlt-replace-highlight-face 'highlight 'hi-yellow)
+
 
 ;;to decide:
 ;;imenu to what key?
